@@ -1,0 +1,483 @@
+﻿.text-center {
+    position: relative;
+    top: 50px;
+}
+.backImg {
+    width:15px;
+    height:15px;
+    margin-right:10px;
+}
+.back{
+    position:relative;
+    right:150px;
+    top:10px;  
+}
+
+.tick {
+    position: relative;
+    right: 480px;
+    top: 30px;
+    font-size:23px;
+}
+
+
+/************* tickets details*************** */
+
+.star {
+    /*    margin: 0;
+    padding: 0;*/
+    color: black;
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+
+    /*box-sizing: border-box;*/
+}
+.item-header {
+    /*padding: 14px 6px;*/
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    position:relative;
+    top:10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    position:relative;
+    font-size: 20px;
+    left:250px;
+}
+
+.b {
+    backdrop-filter: blur(20px);
+    background: white; 
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.1), -1px -1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion {
+    max-width: 1000px;
+    padding: 20px;
+
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+.text {
+    padding: 0 6px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.accordion-item.active .text {
+    max-height: 10000px;
+    transition: .8s linear;
+}
+.enter {
+    position: relative;
+    top: 15px;
+    left: 150px;
+    outline: none;
+    display: block;
+    border: solid 1px #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 13px 40px;
+    border-radius: 5px;
+    background: #F4EEEA;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-bottom:20px;
+}
+
+    .enter:hover, .enter:focus {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .enter:active {
+        background: #000000;
+    }
+
+
+
+.OT{
+    color:black;
+    position:relative;
+    right:110px;
+    top:10px;
+}
+.enterOT {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 350px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+
+.tax {
+    color: black;
+    position: relative;
+    right:135px;
+    top: 10px;
+}
+
+.entertax {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 350px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+
+.sc {
+    color: black;
+    position: relative;
+    right: 100px;
+    top: 10px;
+}
+
+.enterSC {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 350px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+
+/* *********** REQUEST DETAILS ***************/
+.reqDetails{
+position: relative;
+ top: 110px; 
+ text-align: center; 
+ bottom: 50px;
+}
+.req_det_tex {
+    position: relative;
+    text-align: center;
+    right: 480px;
+    /*top: 110px;*/
+    /*bottom: 50px;*/
+    font-size: 21px;
+}
+
+.reqDetails_input{
+ position: relative;
+ right: 257px;
+ top:10px;
+
+}
+
+
+.AN {
+    color: black;
+    position: relative;
+    right: 110px;
+    top: 10px;
+}
+
+.enterAN {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 350px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+
+.RN{
+    color: black;
+    position: relative;
+    right: 100px;
+    top: 10px;
+}
+
+.enterRN {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 350px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+
+.TT {
+    color: black;
+    position: relative;
+    right: 135px;
+    top: 10px;
+}
+
+.enterTT {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 350px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+.viewLetter {
+    position: relative;
+    top: 15px;
+    bottom:10px;
+    left: 150px;
+    outline: none;
+    display: block;
+    border: solid 1px #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 13px 40px;
+    border-radius: 5px;
+    background: #F4EEEA;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-top:20px
+}
+
+    .viewLetter:hover, .viewLetter:focus {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .viewLetter:active {
+        background: #000000;
+    }
+
+/*********Aprove or Reject*************/
+.approve_button {
+    position: relative;
+    top: 35px;
+    left: 456px;
+    outline: none;
+    display: block;
+    border: solid 1px #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 13px 40px;
+    border-radius: 5px;
+    background: #F4EEEA;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+    .approve_button:hover, .approve_button:focus {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .approve_button:active {
+        background: #000000;
+    }
+
+.reject_button {
+    position: relative;
+    bottom: 5px;
+    left: 600px;
+    outline: none;
+    display: block;
+    border: solid 1px #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 13px 40px;
+    border-radius: 5px;
+    background: #F4EEEA;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+    .reject_button:hover, .reject_button:focus {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .reject_button:active {
+        background: #000000;
+    }
+
+
+/*Style pop up messege */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.popup {
+    width: 350px;
+    height: 280px;
+    padding: 30px 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+    text-align: center;
+    opacity: 0;
+    top: -200%;
+    transform: translate(-50%,-50%) scale(0.5);
+    transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+}
+
+    .popup.active {
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%,-50%) scale(1);
+        transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+    }
+
+    .popup .icon {
+        margin: 5px 0px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #34f234;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 60px;
+        left:0px;
+    }
+
+    .popup .icon i.fa {
+        font-size: 30px;
+            color: #34f234;    
+        }    
+
+    .popup .title {
+        margin: 5px 0px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .popup .description {
+        color: #222;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .popup .dismiss-btn {
+        margin-top: 15px;
+    }
+
+        .popup .dismiss-btn button {
+            padding: 10px 20px;
+            background: #111;
+            color: #f5f5f5;
+            border: 2px solid #111;
+            font-size: 16px;
+            font-weight: 600;
+            outline: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 300ms ease-in-out;
+        }
+
+            .popup .dismiss-btn button:hover {
+                color: #111;
+                background: #f5f5f5;
+            }
+
+    .popup > div {
+        position: relative;
+        top: 10px;
+        opacity: 0;
+    }
+
+    .popup.active > div {
+        top: 0px;
+        opacity: 1;
+    }
+
+    .popup.active .icon {
+        transition: all 300ms ease-in-out 250ms;
+    }
+
+    .popup.active .title {
+        transition: all 300ms ease-in-out 300ms;
+    }
+
+    .popup.active .description {
+        transition: all 300ms ease-in-out 350ms;
+    }
+
+    .popup.active .dismiss-btn {
+        transition: all 300ms ease-in-out 400ms;
+    }
+
+.noteClass {
+    position: fixed;
+    bottom: 20%;
+    left: 60%;
+}
+.note {
+    color: black;
+    position: relative;
+    right: 13px;
+    top: 10px;
+}
+
+.enterNote {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}

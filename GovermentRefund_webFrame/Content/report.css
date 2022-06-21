@@ -1,0 +1,296 @@
+﻿.FR {
+    color: black;
+    position: relative;
+    /*right: px;*/
+    top: 10px;
+}
+
+.enterFR {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 240px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+.TO {
+    color: black;
+    position: relative;
+    /*right: 100px;*/
+    top: 10px;
+}
+
+.enterTO {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 240px;
+    border: 1px solid #BEBEBE;
+    border-radius: 0.5rem;
+    color: #18216d;
+    outline: none;
+    padding: 0.8rem;
+    background: none;
+}
+
+
+/***************** Low Part ************************/
+
+.low_part {
+    position: relative;
+    top: 210px;
+    text-align: center;
+    bottom: 50px;
+}
+table {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    width: 1000px;
+    height: 200px;
+    /*border: 1px solid #bdc3c7;*/
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.1), -1px -1px 8px rgba(0, 0, 0, 0.1);
+}
+
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+th,td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#header {
+    background-color: none;
+    color: #000000;
+}
+
+.content:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+}
+
+
+
+/*********Aprove or Reject*************/
+.approve_button {
+    position: relative;
+    top: 35px;
+    left: 456px;
+    outline: none;
+    display: block;
+    border: solid 1px #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 13px 40px;
+    border-radius: 5px;
+    background: #F4EEEA;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+    .approve_button:hover, .approve_button:focus {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .approve_button:active {
+        background: #000000;
+    }
+
+.reject_button {
+    position: relative;
+    bottom: 5px;
+    left: 600px;
+    outline: none;
+    display: block;
+    border: solid 1px #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 13px 40px;
+    border-radius: 5px;
+    background: #F4EEEA;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+    .reject_button:hover, .reject_button:focus {
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .reject_button:active {
+        background: #000000;
+    }
+.approve_reject{
+    position:relative;
+    top:200px;
+}
+
+/* *********** UPER PART *************** */
+
+/* ****** drop down list *********/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: absolute;
+    display:flex;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    nav .drop-btn {
+        width: 400px;
+        background: #ffffff;
+        border-radius: 5px;
+        line-height: 55px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000000;
+        padding: 0 20px;
+    }
+
+        nav .drop-btn span {
+            float: right;
+            line-height: 50px;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+    nav .tooltip {
+        position: absolute;
+        right: 20px;
+        bottom: -20px;
+        height: 15px;
+        width: 15px;
+        background: #ffffff;
+        transform: rotate(45deg);
+        display: none;
+    }
+
+        nav .tooltip.show {
+            display: block;
+        }
+
+    nav .wrapper {
+        position: absolute;
+        top: 65px;
+        display: flex;
+        width: 400px;
+        overflow: hidden;
+        border-radius: 5px;
+        background: #ffffff;
+        display: none;
+        transition: all 0.3s ease;
+    }
+
+        nav .wrapper.show {
+            display: block;
+            display: flex;
+        }
+
+.wrapper ul {
+    width: 400px;
+    list-style: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+    .wrapper ul li {
+        line-height: 55px;
+    }
+
+        .wrapper ul li a {
+            position: relative;
+            color: #b0b3b8;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 0 10px;
+            display: flex;
+            border-radius: 8px;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .wrapper ul li:hover a {
+            background: #000000;
+        }
+
+ul li a .icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 13px;
+    background: #ffffff1a;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+    ul li a .icon span {
+        line-height: 40px;
+        font-size: 20px;
+        color: #b0b3b8;
+    }
+
+ul li a i {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    pointer-events: none;
+}
+
+.wrapper ul.setting-drop,
+.wrapper ul.help-drop {
+    display: none;
+}
+
+.wrapper .arrow {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #b0b3b8;
+    cursor: pointer;
+}
+
+    .wrapper .arrow span {
+        margin-right: 15px;
+    }
+
+.status {
+    color: black;
+    position: relative;
+    bottom: 170px;
+    left:360px;
+    font-size:20px;
+}
